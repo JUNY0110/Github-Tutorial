@@ -9,20 +9,31 @@ import SwiftUI
 
 struct ProductTabView: View {
     var body: some View {
-        TabView{
-            ProductsListView()
-                .tabItem{
-                    Image(systemName: "house.fill")
-                    Text("Shop")
+                
+
+            
+        NavigationView{
+            TabView{
+                    
+                ProductsListView()
+                    .tabItem{
+                        Image(systemName: "house.fill")
+                        Text("Shop")
+                            
+                    }
+                    .navigationBarHidden(true)
+                ProductMyCartView()
+                    .tabItem{
+                        Image(systemName: "bag")
+                        Text("Cart")
                         
-                }
-            //탭을 시각적으로 보여주는 부분에 대한 코드를 작성합니다. 일반적으로 아이콘 Image와 이름 Text가 들어갑니다.
-            ProductMyCartView()
-                .tabItem{
-                    Image(systemName: "bag")
-                    Text("Cart")
-                }
+        
+                    }
+                    .navigationBarHidden(true)
+            
+            }
         }
+        
     }
 }
 

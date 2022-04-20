@@ -31,6 +31,7 @@
 		9818D46E280E3B2A00E0CD42 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9818D46D280E3B2A00E0CD42 /* NavigationBarView.swift */; };
 		9818D472280E9B4F00E0CD42 /* ProductTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9818D471280E9B4F00E0CD42 /* ProductTabView.swift */; };
 		9818D474280E9BF600E0CD42 /* ProductMyCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9818D473280E9BF600E0CD42 /* ProductMyCartView.swift */; };
+		9818D4792810522B00E0CD42 /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9818D4782810522B00E0CD42 /* Test2.swift */; };
 		983D912F2806EEC000513DE9 /* SU_TutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D912E2806EEC000513DE9 /* SU_TutorialsApp.swift */; };
 		983D91312806EEC000513DE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D91302806EEC000513DE9 /* ContentView.swift */; };
 		983D91332806EEC100513DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983D91322806EEC100513DE9 /* Assets.xcassets */; };
@@ -86,6 +87,7 @@
 		9818D46D280E3B2A00E0CD42 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		9818D471280E9B4F00E0CD42 /* ProductTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTabView.swift; sourceTree = "<group>"; };
 		9818D473280E9BF600E0CD42 /* ProductMyCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductMyCartView.swift; sourceTree = "<group>"; };
+		9818D4782810522B00E0CD42 /* Test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2.swift; sourceTree = "<group>"; };
 		983D912B2806EEC000513DE9 /* SU Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SU Tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		983D912E2806EEC000513DE9 /* SU_TutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SU_TutorialsApp.swift; sourceTree = "<group>"; };
 		983D91302806EEC000513DE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				983D912D2806EEC000513DE9 /* SU Tutorials */,
 				9818D465280D51DA00E0CD42 /* Chapter1 */,
 				9818D466280D522900E0CD42 /* Chapter2 */,
+				9818D4782810522B00E0CD42 /* Test2.swift */,
 				983D913E2806EEC100513DE9 /* SU TutorialsTests */,
 				983D91482806EEC100513DE9 /* SU TutorialsUITests */,
 				983D912C2806EEC000513DE9 /* Products */,
@@ -396,6 +399,7 @@
 				983D912F2806EEC000513DE9 /* SU_TutorialsApp.swift in Sources */,
 				9818D457280BBCC400E0CD42 /* AnimalMainView.swift in Sources */,
 				9818D44F280AEAF200E0CD42 /* (no)ListView.swift in Sources */,
+				9818D4792810522B00E0CD42 /* Test2.swift in Sources */,
 				9818D4452809C96100E0CD42 /* MusicFestivalView.swift in Sources */,
 				9818D43F280860CA00E0CD42 /* ToggleView.swift in Sources */,
 				9818D468280E36F200E0CD42 /* ProductDetailView.swift in Sources */,

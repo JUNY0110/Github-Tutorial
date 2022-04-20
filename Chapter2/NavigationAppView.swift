@@ -18,7 +18,7 @@ struct NavigationMainView: View {
             }
             .navigationBarTitle("Animal")
         }
-        .navigationViewStyle(StackNavigationViewStyle())
+        
     }
 }
 struct NavigationDetailView: View {
