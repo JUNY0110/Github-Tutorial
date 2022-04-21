@@ -19,16 +19,16 @@ struct ProductTabView: View {
                     .tabItem{
                         Image(systemName: "house.fill")
                         Text("Shop")
-                            
                     }
+                    .navigationTitle("")
                     .navigationBarHidden(true)
+                
                 ProductMyCartView()
                     .tabItem{
                         Image(systemName: "bag")
                         Text("Cart")
-                        
-        
                     }
+                    .navigationTitle("")
                     .navigationBarHidden(true)
             
             }

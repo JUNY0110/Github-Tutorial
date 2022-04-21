@@ -1,0 +1,6 @@
+framework module Pods_SU_TutorialsTests {
+  umbrella header "Pods-SU TutorialsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -31,14 +31,11 @@
 		9818D46E280E3B2A00E0CD42 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9818D46D280E3B2A00E0CD42 /* NavigationBarView.swift */; };
 		9818D472280E9B4F00E0CD42 /* ProductTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9818D471280E9B4F00E0CD42 /* ProductTabView.swift */; };
 		9818D474280E9BF600E0CD42 /* ProductMyCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9818D473280E9BF600E0CD42 /* ProductMyCartView.swift */; };
-		9818D4792810522B00E0CD42 /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9818D4782810522B00E0CD42 /* Test2.swift */; };
+		9818D47F2811933C00E0CD42 /* fjeiowa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9818D47E2811933C00E0CD42 /* fjeiowa.swift */; };
 		983D912F2806EEC000513DE9 /* SU_TutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D912E2806EEC000513DE9 /* SU_TutorialsApp.swift */; };
 		983D91312806EEC000513DE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D91302806EEC000513DE9 /* ContentView.swift */; };
 		983D91332806EEC100513DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983D91322806EEC100513DE9 /* Assets.xcassets */; };
 		983D91362806EEC100513DE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983D91352806EEC100513DE9 /* Preview Assets.xcassets */; };
-		983D91402806EEC100513DE9 /* SU_TutorialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D913F2806EEC100513DE9 /* SU_TutorialsTests.swift */; };
-		983D914A2806EEC100513DE9 /* SU_TutorialsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D91492806EEC100513DE9 /* SU_TutorialsUITests.swift */; };
-		983D914C2806EEC100513DE9 /* SU_TutorialsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D914B2806EEC100513DE9 /* SU_TutorialsUITestsLaunchTests.swift */; };
 		983D91592806FD9E00513DE9 /* IUProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D91582806FD9E00513DE9 /* IUProfile.swift */; };
 		983D915B28071DF700513DE9 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D915A28071DF700513DE9 /* ButtonView.swift */; };
 		983D915F28072BC300513DE9 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D915E28072BC300513DE9 /* TextFieldView.swift */; };
@@ -87,17 +84,14 @@
 		9818D46D280E3B2A00E0CD42 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		9818D471280E9B4F00E0CD42 /* ProductTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTabView.swift; sourceTree = "<group>"; };
 		9818D473280E9BF600E0CD42 /* ProductMyCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductMyCartView.swift; sourceTree = "<group>"; };
-		9818D4782810522B00E0CD42 /* Test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2.swift; sourceTree = "<group>"; };
-		983D912B2806EEC000513DE9 /* SU Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SU Tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9818D47E2811933C00E0CD42 /* fjeiowa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fjeiowa.swift; sourceTree = "<group>"; };
+		9818D4802811BCD300E0CD42 /* SU TutorialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SU TutorialsTests.xctest"; path = "/Users/joonyong/Documents/GitHub/Github-Tutorial/build/Debug-iphoneos/SU TutorialsTests.xctest"; sourceTree = "<absolute>"; };
+		9818D4812811BCD300E0CD42 /* SU TutorialsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SU TutorialsUITests.xctest"; path = "/Users/joonyong/Documents/GitHub/Github-Tutorial/build/Debug-iphoneos/SU TutorialsUITests.xctest"; sourceTree = "<absolute>"; };
+		9818D4822811BCD300E0CD42 /* SU Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "SU Tutorials.app"; path = "/Users/joonyong/Documents/GitHub/Github-Tutorial/build/Debug-iphoneos/SU Tutorials.app"; sourceTree = "<absolute>"; };
 		983D912E2806EEC000513DE9 /* SU_TutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SU_TutorialsApp.swift; sourceTree = "<group>"; };
 		983D91302806EEC000513DE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		983D91322806EEC100513DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		983D91352806EEC100513DE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		983D913B2806EEC100513DE9 /* SU TutorialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SU TutorialsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		983D913F2806EEC100513DE9 /* SU_TutorialsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SU_TutorialsTests.swift; sourceTree = "<group>"; };
-		983D91452806EEC100513DE9 /* SU TutorialsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SU TutorialsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		983D91492806EEC100513DE9 /* SU_TutorialsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SU_TutorialsUITests.swift; sourceTree = "<group>"; };
-		983D914B2806EEC100513DE9 /* SU_TutorialsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SU_TutorialsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		983D91582806FD9E00513DE9 /* IUProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IUProfile.swift; sourceTree = "<group>"; };
 		983D915A28071DF700513DE9 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		983D915E28072BC300513DE9 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
@@ -182,6 +176,7 @@
 				9818D469280E39DE00E0CD42 /* ProductsListView.swift */,
 				9818D467280E36F200E0CD42 /* ProductDetailView.swift */,
 				9818D473280E9BF600E0CD42 /* ProductMyCartView.swift */,
+				9818D47E2811933C00E0CD42 /* fjeiowa.swift */,
 				9818D471280E9B4F00E0CD42 /* ProductTabView.swift */,
 			);
 			path = Chapter2project;
@@ -193,21 +188,7 @@
 				983D912D2806EEC000513DE9 /* SU Tutorials */,
 				9818D465280D51DA00E0CD42 /* Chapter1 */,
 				9818D466280D522900E0CD42 /* Chapter2 */,
-				9818D4782810522B00E0CD42 /* Test2.swift */,
-				983D913E2806EEC100513DE9 /* SU TutorialsTests */,
-				983D91482806EEC100513DE9 /* SU TutorialsUITests */,
-				983D912C2806EEC000513DE9 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		983D912C2806EEC000513DE9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				983D912B2806EEC000513DE9 /* SU Tutorials.app */,
-				983D913B2806EEC100513DE9 /* SU TutorialsTests.xctest */,
-				983D91452806EEC100513DE9 /* SU TutorialsUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		983D912D2806EEC000513DE9 /* SU Tutorials */ = {
@@ -229,23 +210,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		983D913E2806EEC100513DE9 /* SU TutorialsTests */ = {
-			isa = PBXGroup;
-			children = (
-				983D913F2806EEC100513DE9 /* SU_TutorialsTests.swift */,
-			);
-			path = "SU TutorialsTests";
-			sourceTree = "<group>";
-		};
-		983D91482806EEC100513DE9 /* SU TutorialsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				983D91492806EEC100513DE9 /* SU_TutorialsUITests.swift */,
-				983D914B2806EEC100513DE9 /* SU_TutorialsUITestsLaunchTests.swift */,
-			);
-			path = "SU TutorialsUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -253,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 983D914F2806EEC100513DE9 /* Build configuration list for PBXNativeTarget "SU Tutorials" */;
 			buildPhases = (
+				E5816DF60B44939221804DB9 /* [CP] Check Pods Manifest.lock */,
 				983D91272806EEC000513DE9 /* Sources */,
 				983D91282806EEC000513DE9 /* Frameworks */,
 				983D91292806EEC000513DE9 /* Resources */,
+				D983ED6EE67212B0695E4E39 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,13 +229,14 @@
 			);
 			name = "SU Tutorials";
 			productName = "SU Tutorials";
-			productReference = 983D912B2806EEC000513DE9 /* SU Tutorials.app */;
+			productReference = 9818D4822811BCD300E0CD42 /* SU Tutorials.app */;
 			productType = "com.apple.product-type.application";
 		};
 		983D913A2806EEC100513DE9 /* SU TutorialsTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 983D91522806EEC100513DE9 /* Build configuration list for PBXNativeTarget "SU TutorialsTests" */;
 			buildPhases = (
+				1958BFFCEBA2AD028EF41996 /* [CP] Check Pods Manifest.lock */,
 				983D91372806EEC100513DE9 /* Sources */,
 				983D91382806EEC100513DE9 /* Frameworks */,
 				983D91392806EEC100513DE9 /* Resources */,
@@ -281,16 +248,18 @@
 			);
 			name = "SU TutorialsTests";
 			productName = "SU TutorialsTests";
-			productReference = 983D913B2806EEC100513DE9 /* SU TutorialsTests.xctest */;
+			productReference = 9818D4802811BCD300E0CD42 /* SU TutorialsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		983D91442806EEC100513DE9 /* SU TutorialsUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 983D91552806EEC100513DE9 /* Build configuration list for PBXNativeTarget "SU TutorialsUITests" */;
 			buildPhases = (
+				F5929CD35AEE70EEC01538CC /* [CP] Check Pods Manifest.lock */,
 				983D91412806EEC100513DE9 /* Sources */,
 				983D91422806EEC100513DE9 /* Frameworks */,
 				983D91432806EEC100513DE9 /* Resources */,
+				D61CF9E0DD75872101DBEA95 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -299,7 +268,7 @@
 			);
 			name = "SU TutorialsUITests";
 			productName = "SU TutorialsUITests";
-			productReference = 983D91452806EEC100513DE9 /* SU TutorialsUITests.xctest */;
+			productReference = 9818D4812811BCD300E0CD42 /* SU TutorialsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -334,7 +303,7 @@
 				Base,
 			);
 			mainGroup = 983D91222806EEC000513DE9;
-			productRefGroup = 983D912C2806EEC000513DE9 /* Products */;
+			productRefGroup = 983D91222806EEC000513DE9;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -371,6 +340,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1958BFFCEBA2AD028EF41996 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SU TutorialsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D61CF9E0DD75872101DBEA95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SU Tutorials-SU TutorialsUITests/Pods-SU Tutorials-SU TutorialsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SU Tutorials-SU TutorialsUITests/Pods-SU Tutorials-SU TutorialsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SU Tutorials-SU TutorialsUITests/Pods-SU Tutorials-SU TutorialsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D983ED6EE67212B0695E4E39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SU Tutorials/Pods-SU Tutorials-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SU Tutorials/Pods-SU Tutorials-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SU Tutorials/Pods-SU Tutorials-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5816DF60B44939221804DB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SU Tutorials-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5929CD35AEE70EEC01538CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SU Tutorials-SU TutorialsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		983D91272806EEC000513DE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -389,6 +461,7 @@
 				9818D4432809C7A200E0CD42 /* SpacerView.swift in Sources */,
 				9818D460280C760B00E0CD42 /* AnimalLikeView.swift in Sources */,
 				9818D45D280C741D00E0CD42 /* AnimalTabView.swift in Sources */,
+				9818D47F2811933C00E0CD42 /* fjeiowa.swift in Sources */,
 				9818D4412808710A00E0CD42 /* PickerView.swift in Sources */,
 				9818D455280BBB1D00E0CD42 /* AnimalData.swift in Sources */,
 				9818D45B280C2A1600E0CD42 /* AnimalDetailView.swift in Sources */,
@@ -399,7 +472,6 @@
 				983D912F2806EEC000513DE9 /* SU_TutorialsApp.swift in Sources */,
 				9818D457280BBCC400E0CD42 /* AnimalMainView.swift in Sources */,
 				9818D44F280AEAF200E0CD42 /* (no)ListView.swift in Sources */,
-				9818D4792810522B00E0CD42 /* Test2.swift in Sources */,
 				9818D4452809C96100E0CD42 /* MusicFestivalView.swift in Sources */,
 				9818D43F280860CA00E0CD42 /* ToggleView.swift in Sources */,
 				9818D468280E36F200E0CD42 /* ProductDetailView.swift in Sources */,
@@ -414,7 +486,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				983D91402806EEC100513DE9 /* SU_TutorialsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,8 +493,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				983D914C2806EEC100513DE9 /* SU_TutorialsUITestsLaunchTests.swift in Sources */,
-				983D914A2806EEC100513DE9 /* SU_TutorialsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

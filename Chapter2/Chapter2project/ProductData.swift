@@ -24,7 +24,18 @@ let productsList = [
     ProductsList(image: "product_5", num: "05", name: "iPhone13 red", price: "900,000", style: "Product Red")
 ]
 
-struct ProductsIntList: Identifiable, Hashable {
-    let id = UUID()
-    let price: Int
-}
+//struct ProductsIntList: Identifiable, Hashable {
+//    let id = UUID()
+//    let price: Int
+//    let num: Int
+//}
+//
+//
+//let productsIntList = [
+//
+//    ProductsIntList(price: 24000, num: 1),
+//    ProductsIntList(price: 99000, num: 1),
+//    ProductsIntList(price: 5000, num: 1),
+//    ProductsIntList(price: 15000, num: 1),
+//    ProductsIntList(price: 900000, num: 1)
+//]

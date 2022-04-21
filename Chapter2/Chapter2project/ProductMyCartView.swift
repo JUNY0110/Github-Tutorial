@@ -11,11 +11,19 @@ import SwiftUI
 
 
 struct ProductMyCartView: View {
+ 
+    @State private var value = 1
+    
+    func incrementStep() {
+        //클릭마다 +1씩 증가
+        value += 1
+    }
+    func oncrementStep() {
+        //클릭마다 +1씩 증가
+        value -= 1
+    }
 
-    @State var num: Int = 1
     
-    
-    @State var productAmount: Int = 1
     var body: some View {
 
         ScrollView{
@@ -58,7 +66,8 @@ struct ProductMyCartView: View {
                                 Spacer()
                                 
                                 Button(action: {
-                                    Text("\(num-1)")
+
+                                    oncrementStep()
                                 }, label: {
                                     Image(systemName: "minus")
                                 })
@@ -70,12 +79,12 @@ struct ProductMyCartView: View {
                                         .foregroundColor(.white)
                                         .overlay(Rectangle().stroke(Color.cyon, lineWidth: 1))
                                     
-                                    Text("\(num)")
+                                    Text("\(value)")
                                     
                                 }
                                     
                                 Button(action: {
-                                    Text("\(num+1)")
+                                    incrementStep()
                                 }, label: {
                                     Image(systemName: "plus")
                                 })

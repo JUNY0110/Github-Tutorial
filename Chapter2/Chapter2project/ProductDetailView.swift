@@ -11,12 +11,13 @@ import SwiftUI
 struct ProductDetailView: View {
     @Environment(\.presentationMode) var mode: Binding<PresentationMode>
 
+
     
     var body: some View {
         
 
         VStack{
-            Image("product_1") // product_1, product.image
+            Image("product_1")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: .infinity)
@@ -97,6 +98,7 @@ struct ProductDetailView: View {
                 })
                 
             }
+
         }.padding(.horizontal, 10)
             
         .navigationBarBackButtonHidden(true)
@@ -105,17 +107,23 @@ struct ProductDetailView: View {
         }) {
             Image(systemName: "chevron.left")
         })
+        Spacer()
+
+       
         .toolbar(){
             ToolbarItem(placement: .navigationBarTrailing){
-                HStack(spacing: 20) {
-                    Text("Detail")
+                HStack(spacing: 105) {
                     
-                    Spacer()
+                    Text("Detail")
+                        .font(.system(size: 30, weight: .bold, design: .rounded))
                     
                     Image(systemName: "magnifyingglass")
+                        .font(.system(size: 20, weight: .bold, design: .rounded))
+
                 }
             }
         }.padding(.horizontal, 10)
+        
     }
 }
 
